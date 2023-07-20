@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sideBar nav{
+    padding: 1px;
+}
+.sideBar li{
+    list-style: none;
+    padding: 23px;
+    font-size: 20px;
+}
+.sideBar li a {
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+}
+
+.sideBar{
+    position: absolute;
+    background-color: rgb(180, 167, 167);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* width: 230px; */
+    height: 100vh;
+    transition: transform 0.5s ease-in;
+
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+
+}
+.infoContainer{
+    /* background-color: grey; */
+    width: 80vw;
+    height: 50vh;
+    margin: 61px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.hello{
+font-size: 60px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.name{
+    font-size: 40px;
+    font-family: cursive;
+}
+.about{
+
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.moreabout{
+    font-size: 24px;
+    font-family: math;
+    margin-top: 20px;
+}
+.buttons button{
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    color: white;
+    background-color: rgb(20, 72, 102);
+    font-weight: 100;
+}
+.buttons button:hover{
+    color: rgb(219, 63, 15);
+    background-color: rgb(246, 247, 248);
+}
+.devpic img{
+    width: 220px;
+}
+.container{
+    display: flex;
+
+
+}
+.ContactForm{
+    font-family: cursive;
+    padding-top: 170px;
+
+}
+.ContactForm h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+} 
+.ContactForm div{
+    padding: 7px 0;
+    font-size: 20 px;
+    margin: 0 15px;
+     
+}
+.ContactForm div input{
+    width: 30vw;
+    border-radius: 5px;
+    margin: 0 15px;
+    padding: 3px;    
+}
+.form-check-label{
+    margin: 0 15px;
+}
+
+button{
+    margin: 0 15px;
+}
+.form-text{
+    font-size: small;
+    color: midnightblue;
+    margin: 0 5px;
+}
+#form-check{
+flex-direction: row;
+}
+#form-check input{
+width: 20px;
+
+}
+h1{
+    margin: 10px;
+    padding-bottom: 20px;
+}
+.BlogItem{
+    
+    margin: 0 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    padding-top: 91px;
+    margin: 0 15px
+}
+.skillsContainer{
+ padding: 12px;
+}
+.skill{
+    border-radius: 10px;
+    width: 265px;
+    height: 10px;
+    background-color: red; 
+}
+.skillItem{
+    display: flex;
+
+}
+.hundred{
+background-color: yellow;
+width: 200px;
+}
+.fifty{
+    background-color: chocolate;
+    width: 300px;
+}
+.t5{
+background-color: burlywood;
+width: 400px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .project {
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .project h3 {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .sideBarGo{
+    transform: translate(-480px,0px);
+    position:absolute;
+}
+  @media screen and (max-width: 1250px) {
+
+    /* .sideBar{
+        transform: translate(-480px,0px);
+        position:absolute;
+    } */
+    .devpic{
+        display: none;
+        
+    }
+    .intro, .blogContainer, .ContactForm{
+        margin: 50px 8px;
+    }
+  }
+  ul{
+    padding-top: 40px;
+  }
+  .hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 1px;
+  }
+  .cross{
+    margin-left: 115px;
+    padding-bottom: 3px;
+  }
